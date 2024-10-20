@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container2">
+            <div class="details">
+                <h1>Todo App</h1>
+                <p>Keep it up!</p>
+                <div id="progressBar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div class="stats">
+                <p id="num">0/0</p>  <!-- Updated initial task stats -->
+            </div>
+        </div>
+    </div>
+    <div class="filterContainer">
+        <div class="filterdata">
+            <select id="filterSelect">
+              <option value="all">ALL</option>
+              <option value="completed">Completed</option>
+              <option value="pending">Pending</option>
+            </select>
+        </div>
+    </div>
+    <form id="taskForm" class="form-container">
+        <input type="text" id="input" placeholder="Write your task">
+        <button type="submit">+</button>
+    </form>
+    
+
+    <ul id="task_List"></ul>  <!-- Corrected the task list ID -->
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</body>
+</html>
