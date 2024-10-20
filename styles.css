@@ -198,7 +198,7 @@ li h1{
         flex-direction: row;
         align-items: flex-start;
         gap: 20px;
-        width: 80%; 
+        width: 400px; 
     }
 
     #num {
