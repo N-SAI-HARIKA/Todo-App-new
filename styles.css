@@ -198,7 +198,7 @@ li h1{
         flex-direction: row;
         align-items: flex-start;
         gap: 20px;
-        width: 100%; 
+        width: 80%; 
     }
 
     #num {
@@ -253,6 +253,7 @@ li h1{
     body {
         background: url('https://img.freepik.com/premium-photo/different-office-supplies-colored-stickers-notebooks-pens-pencils-rullers-marckers-different-school-items-important-information-accessories-lying-desk_424947-13317.jpg?ga=GA1.1.1414198285.1727840973&semt=ais_hybrid');
         background-size: cover;
+        margin-top: 50%;
     }
 
     .container2 {
